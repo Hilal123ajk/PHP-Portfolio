@@ -14,7 +14,12 @@ html{
 }
 
 /* ************************** */
+/* ************************** */
 /* Media Queries */
+/* ************************** */
+/* ************************** */
+
+
 
 @media only screen and (max-width: 700px) {
     html{
@@ -38,15 +43,20 @@ html{
     /* About Section For Mobile  */
 
     .about-card-section{
-        width: 85% !important;
-        margin: 0 auto;
+        width: 80% !important;
+        margin: 0 auto !important;
         padding: 10px 5px;
+        border-radius: 0.7rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 2px solid black;
+        border: 2px solid rgb(191, 184, 184);
+        background-color: #eef0fa;
+        text-align: center;
     }
+
+    
     
     h4{
         font-size: 1.7rem !important;
@@ -59,6 +69,7 @@ html{
         width: 40%;
         height: 18.3rem;
         border-radius: 50%;
+        
     }
 
     .tech-stack{
@@ -108,15 +119,21 @@ html{
     
   }
 
+  
+
 /* ************************** */
+/* ************************** */
+  /* Media Queries */
+/* ************************** */  
+/* ************************** */  
 
 
-/* Main Section  */
+/* Main Section  */  
 
 .custom-container{
     /* border: 2px solid black; */
     width: 100%;
-    /* max-width: 1200px; */
+    max-width: 1500px;
     min-width: 300px;
     margin: 0 auto;
     /* border-left: 2px solid #caccd5;
@@ -130,11 +147,11 @@ html{
 }
 
 .left-hero-section{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* border: 2px solid black; */
     justify-content: center;
-    margin: 0 20px;
+    margin: auto 20px;
     padding: 0 10px;
 }
 
@@ -150,6 +167,29 @@ p{
 }
 .title-paragraph{
     margin: 5px 0;
+}
+
+/* ******************** */
+/* ******************** */
+
+/* Services Button  */
+
+.services-button{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-left: -0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #050b41;
+    color: rgb(245, 244, 244);
+}
+.services-button:hover{
+    border: 1px solid rgb(48, 48, 56);
+    background-color: white;
+    color: black;
 }
 
 /*  *********************
@@ -174,7 +214,7 @@ Ideas Created Heading
     left: 50%;
     margin-top: -0.9rem;
     height: 1rem;
-    width: 12rem;
+    width: 15rem;
     background-color: rgb(229, 152, 239);
     border-radius: 5px;
 }
@@ -202,7 +242,7 @@ Project Section
     /* border: 2px solid black; */
     border-radius: 4px;
     padding: 0px !important;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 .project h3,p,a{
     margin-left: 10px;
@@ -233,6 +273,9 @@ a{
     font-family: 'Anek Telugu', sans-serif;
 }
 
+
+
+
   /* ********************
    ********************
 
@@ -241,6 +284,24 @@ About Us Section
     *******************
     *******************
 */
+
+/* About Main Heading ***** About Us ***** */
+
+.about-main-heading:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 52.5%;
+    margin-top: -0.9rem;
+    height: 1rem;
+    width: 7rem;
+    background-color: rgb(229, 152, 239);
+    border-radius: 5px;
+}
+
+/* ***************** */
+    /* About Section */
+/* ***************** */    
 
 .about-section{
     width: 80%;
@@ -266,4 +327,26 @@ About Us Section
 
 .about-heading{
     margin-left: 0.7rem;
+}
+
+/* ************************ */
+/* ************************ */
+
+/* About Section Ends Here  */
+
+.contact-section{
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+}
+
+.contact-info-section{
+    margin: auto 20px !important;
+    /* border: 2px solid red; */
+    padding: 2.5rem 4.5rem !important;
+}
+
+.contact-sources{
+    display: flex !important;
+    justify-content: space-between;
+    margin: 2rem 0  !important;
 }

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap');
+
+/* ************** */
+    /* Font For Texts  */
+/* ************** */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.login-form{
+    width: 35%;
+    border: 2px solid black;
+    margin: auto auto;
+    border-radius: 5px;
+    padding: .7rem 0;
+}
+
+.input-field{
+    width: 80%;
+    padding: 0.7rem 0.3rem;
+    display: block;
+    margin: 1rem auto;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(72, 67, 67);
+    font-size: 1rem;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+img{
+    display: block;
+    margin: .5rem auto;
+}
+
+.login-button{
+    display: block;
+    margin: .8rem auto;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    background-color: rgba(31, 119, 214, 0.943);
+    color: white;
+    border: none;
+    border-radius: .3rem;
+}
